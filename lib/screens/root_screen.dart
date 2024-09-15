@@ -34,57 +34,10 @@ class _RootScreenState extends State<RootScreen> {
   }
 
   @override
-
-  // Widget build(BuildContext context) {
-  //   return Scaffold(
-  //     body: _pages[_selectedIndex],
-  //     bottomNavigationBar: BottomNavigationBar(
-  //       type: BottomNavigationBarType.fixed,
-  //       currentIndex: _selectedIndex,
-  //       selectedItemColor: AppColors.primaryColor, // Selected icon and label color
-  //       unselectedItemColor: Colors.grey,          // Unselected icon and label color
-  //       onTap: _onItemTapped,
-  //
-  //       // BottomNavigationBar items
-  //       items: [
-  //         BottomNavigationBarItem(
-  //           icon: SvgPicture.asset(
-  //             'assets/icons/Home.svg',
-  //
-  //           ),
-  //           label: 'Home',
-  //         ),
-  //         BottomNavigationBarItem(
-  //           icon: SvgPicture.asset(
-  //             'assets/icons/Portfolio.svg',
-  //
-  //           ),
-  //           label: 'Portfolio',
-  //         ),
-  //         BottomNavigationBarItem(
-  //           icon: SvgPicture.asset(
-  //             'assets/icons/Input.svg',
-  //
-  //           ),
-  //           label: 'Input',
-  //         ),
-  //         BottomNavigationBarItem(
-  //           icon: SvgPicture.asset(
-  //             'assets/icons/Profile.svg',
-  //
-  //           ),
-  //           label: 'Profile',
-  //         ),
-  //       ],
-  //     ),
-  //   );
-  // }
-
   Widget build(BuildContext context) {
     return Scaffold(
       body: _pages[_selectedIndex],
       bottomNavigationBar: bottomNavBar(),
-
     );
   }
 
@@ -112,8 +65,7 @@ class _RootScreenState extends State<RootScreen> {
         child: BottomNavigationBar(
           type: BottomNavigationBarType.fixed,
           currentIndex: _selectedIndex,
-          selectedItemColor:
-              AppColors.primaryColor, // Color for selected items
+          selectedItemColor: AppColors.primaryColor, // Color for selected items
           unselectedItemColor: Colors.grey, // Color for unselected items
           onTap: _onItemTapped,
 
@@ -127,36 +79,32 @@ class _RootScreenState extends State<RootScreen> {
             BottomNavigationBarItem(
               icon: SvgPicture.asset(
                 'assets/icons/Home.svg',
-                color: _selectedIndex == 0
-                    ? AppColors.primaryColor
-                    : Colors.grey,
+                color:
+                    _selectedIndex == 0 ? AppColors.primaryColor : Colors.grey,
               ),
               label: 'Home',
             ),
             BottomNavigationBarItem(
               icon: SvgPicture.asset(
                 'assets/icons/Portfolio.svg',
-                color: _selectedIndex == 1
-                    ? AppColors.primaryColor
-                    : Colors.grey,
+                color:
+                    _selectedIndex == 1 ? AppColors.primaryColor : Colors.grey,
               ),
               label: 'Portfolio',
             ),
             BottomNavigationBarItem(
               icon: SvgPicture.asset(
                 'assets/icons/Input.svg',
-                color: _selectedIndex == 2
-                    ? AppColors.primaryColor
-                    : Colors.grey,
+                color:
+                    _selectedIndex == 2 ? AppColors.primaryColor : Colors.grey,
               ),
               label: 'Input',
             ),
             BottomNavigationBarItem(
               icon: SvgPicture.asset(
                 'assets/icons/Profile.svg',
-                color: _selectedIndex == 3
-                    ? AppColors.primaryColor
-                    : Colors.grey,
+                color:
+                    _selectedIndex == 3 ? AppColors.primaryColor : Colors.grey,
               ),
               label: 'Profile',
             ),
