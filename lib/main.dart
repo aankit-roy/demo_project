@@ -22,6 +22,7 @@ class MyApp extends StatelessWidget {
 
 
             colorScheme: ColorScheme.fromSeed(seedColor: Colors.redAccent),
+            fontFamily: 'Roboto', // Set the default font
             useMaterial3: true,
           ),
           home: const RootScreen()

@@ -83,6 +83,7 @@ class ProjectTab extends StatelessWidget {
                                               project.subtitle,
                                               style: TextStyle(
                                                   fontSize: 12.sp,
+                                                  fontWeight: FontWeight.w200,
                                                   color: Colors.grey),
                                             ),
                                           ),
