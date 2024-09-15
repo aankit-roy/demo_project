@@ -1,5 +1,4 @@
 import 'package:demo_project/constants/app_color.dart';
-import 'package:demo_project/main.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'package:demo_project/screens/home_screen.dart';
