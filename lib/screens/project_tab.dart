@@ -1,11 +1,9 @@
 import 'package:demo_project/components/widgets/search_box.dart';
-import 'package:demo_project/constants/app_color.dart';
 import 'package:demo_project/model/project_model.dart';
 import 'package:demo_project/riverpod/project_notifier.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 
 class ProjectTab extends StatelessWidget {
   const ProjectTab({
