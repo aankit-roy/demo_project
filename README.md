@@ -1,16 +1,17 @@
-# demo_project
-
-doing some little stuff
+ # Demo_Project
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a Flutter application built to manage portfolios and personal projects. Follow the instructions below to set up and run the project on your local machine.
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter SDK
+- Dart SDK
+- Any necessary IDE (Android Studio)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone  https://github.com/aankit-roy/demo_project.git
